@@ -1,0 +1,2 @@
+materialization:
+  refresh_interval: 360m

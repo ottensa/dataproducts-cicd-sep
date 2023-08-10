@@ -1,0 +1,20 @@
+summary: Details of all orders
+columns:
+- name: orderkey
+  type: bigint
+  description: Order Identifier
+- name: linenumber
+  type: integer
+  description: Record Number within order
+- name: returnflag
+  type: varchar(1)
+  description: Return Status
+- name: linestatus
+  type: varchar(1)
+  description: Line Status
+- name: receiptdate
+  type: date
+  description: Date of arrival
+- name: shipmode
+  type: varchar(10)
+  description: Type of Transportation

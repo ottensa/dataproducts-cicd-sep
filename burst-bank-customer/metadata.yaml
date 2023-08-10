@@ -1,0 +1,14 @@
+catalog: data_products
+domain: Customer
+name: Burst Bank Customer
+summary: Customer data for a 360 view
+owner:
+- name: Yash Balar
+  email: yash.balar@starburstdata.com
+- name: Patrick Fremont
+  email: patrick.fremont@starburstdata.com
+tags:
+- risk
+- Auto Loans
+- customer
+- credit

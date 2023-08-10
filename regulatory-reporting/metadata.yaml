@@ -1,0 +1,19 @@
+catalog: data_products
+domain: 'Risk '
+name: Regulatory Reporting
+summary: "Regulatorisches Meldewesen und aufsichtsrechtliche Offenlegung werden sich\
+  \ stetig \xE4ndern und erh\xF6hen, was h\xF6here Anforderungen an Institute bedeutet."
+owner:
+- name: Arne Ottens
+  email: arne.ottens@starburst.io
+- name: Compliance
+  email: compliance@acme.com
+links:
+- label: Reporting Handbook
+  url: https://www2.deloitte.com/de/de/pages/risk/solutions/regulatory-reporting.html
+- label: Reporting Dashboard
+  url: https://www.cappitech.com/wp-content/uploads/2020/03/capptivate-dashboard-673x438.png
+tags:
+- banking
+- risk
+- high priority

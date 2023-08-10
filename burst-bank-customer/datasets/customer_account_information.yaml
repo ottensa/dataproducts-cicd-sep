@@ -1,0 +1,40 @@
+columns:
+- name: custkey
+  type: varchar
+  description: Primary customer key
+- name: acctkey
+  type: varchar
+  description: Main Account Key
+- name: products
+  type: varchar
+  description: Products
+- name: first_name
+  type: varchar
+  description: First Name
+- name: last_name
+  type: varchar
+  description: Last Name
+- name: street
+  type: varchar
+  description: Street Address
+- name: city
+  type: varchar
+  description: City of Residence
+- name: state
+  type: varchar
+  description: State or Province
+- name: postcode
+  type: varchar
+  description: Postal or Zip Code
+- name: career
+  type: varchar(65535)
+  description: Career or Profession
+- name: professional_status
+  type: varchar(65535)
+  description: Professional Status
+- name: risk_appetite
+  type: varchar(65535)
+  description: Level of tolerance for risk
+- name: customer_segment
+  type: varchar(65535)
+  description: Customer Segment

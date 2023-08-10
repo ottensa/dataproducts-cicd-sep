@@ -1,0 +1,14 @@
+summary: List of all the orders
+columns:
+- name: orderkey
+  type: bigint
+  description: Order Identifier
+- name: custkey
+  type: bigint
+  description: Customer Identifier for that order
+- name: orderstatus
+  type: varchar(1)
+  description: Status of the order
+- name: orderdate
+  type: date
+  description: Date of the order creation

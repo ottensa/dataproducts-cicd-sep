@@ -1,0 +1,1 @@
+SELECT suppkey, name, address, phone FROM "tpch"."tiny"."supplier"

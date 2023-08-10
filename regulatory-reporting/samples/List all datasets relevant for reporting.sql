@@ -1,0 +1,1 @@
+SHOW TABLES FROM data_products.regulatory_reporting

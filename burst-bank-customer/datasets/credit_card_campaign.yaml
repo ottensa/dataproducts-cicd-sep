@@ -1,0 +1,27 @@
+columns:
+- name: first_name
+  type: varchar
+  description: ''
+- name: last_name
+  type: varchar
+  description: ''
+- name: estimated_income
+  type: double
+  description: ''
+- name: products
+  type: varchar
+  description: ''
+- name: cc_number
+  type: varchar
+  description: ''
+- name: mortgage_id
+  type: varchar
+  description: ''
+- name: customer_segment
+  type: varchar
+  description: ''
+- name: cc_type
+  type: varchar
+  description: ''
+materialization:
+  refresh_interval: 60m

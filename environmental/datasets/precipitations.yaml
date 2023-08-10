@@ -1,0 +1,10 @@
+columns:
+- name: regionkey
+  type: bigint
+  description: ''
+- name: name
+  type: varchar(25)
+  description: ''
+- name: comment
+  type: varchar(152)
+  description: ''

@@ -1,0 +1,21 @@
+summary: 'Select customers who have more than 3 delinquent payments in their history
+  and a fico score of less than 500. '
+columns:
+- name: first_name
+  type: varchar
+  description: ''
+- name: last_name
+  type: varchar
+  description: ''
+- name: fico
+  type: integer
+  description: ''
+- name: auto_loan_id
+  type: varchar
+  description: ''
+- name: auto_loan_open_date
+  type: varchar
+  description: ''
+- name: num_delinquent_payments
+  type: bigint
+  description: ''

@@ -1,0 +1,1 @@
+SELECT orderkey, custkey, orderstatus, orderdate FROM "tpch"."tiny"."orders"

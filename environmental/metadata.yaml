@@ -1,0 +1,18 @@
+catalog: data_products
+domain: ESG
+name: Environmental
+summary: Datasets for Environmental datasets to feed ESG reporting and analysis
+owner:
+- name: Victor Coustenoble
+  email: victor.coustenoble@starburstdata.com
+links:
+- label: ESG Investing (OECD)
+  url: https://www.oecd.org/finance/esg-investing.htm
+- label: ESG datasets
+  url: https://databank.worldbank.org/source/environment-social-and-governance-(esg)-data
+- label: 'European Environment Agency datasets '
+  url: https://www.eea.europa.eu/themes/air/data-and-maps/data#c0=5&c11=&c5=all&b_start=0
+tags:
+- esg
+- environmental
+- co2
