@@ -1,4 +1,4 @@
-catalog: data_products
+catalog: objectstore
 domain: Risk
 name: Regulatory Reporting
 summary: "Regulatorisches Meldewesen und aufsichtsrechtliche Offenlegung werden sich\

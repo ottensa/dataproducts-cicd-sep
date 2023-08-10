@@ -1,4 +1,4 @@
-catalog: data_products
+catalog: objectstore
 domain: ESG
 name: Environmental
 summary: Datasets for Environmental datasets to feed ESG reporting and analysis
