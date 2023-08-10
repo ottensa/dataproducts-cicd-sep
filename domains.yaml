@@ -1,0 +1,11 @@
+- name: API
+  desc: API generated Domain
+  path: file:///tmp/
+- name: Meta
+  desc: Lorem Ipsum
+  path: file:///tmp/
+- name: Risk
+  desc: Lorem Ipsum
+  path: file:///tmp/
+- name: test_domain
+  path: file:///tmp/foobar/
