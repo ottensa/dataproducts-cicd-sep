@@ -40,6 +40,6 @@ jobs:
       run: |
         sepdpc publish $GITHUB_WORKSPACE
       env:
-        SEP_HOST: ${{ vars.SEP_HOST }}
-        SEP_USER: ${{ vars.SEP_USER }}
-        SEP_TOKEN: ${{ vars.SEP_TOKEN }}
+        SEPDPC_HOST: ${{ vars.SEPDPC_HOST }}
+        SEPDPC_USER: ${{ vars.SEPDPC_USER }}
+        SEPDPC_TOKEN: ${{ vars.SEPDPC_TOKEN }}
