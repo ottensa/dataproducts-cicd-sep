@@ -16,18 +16,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout adsepra
+      uses: actions/checkout@v3
+      with:
+        repository: ottensa/ad-sepra
+        path: adsepra
+        
+    - name: Checkout sepdpc
+      uses: actions/checkout@v3
+      with:
+        repository: ottensa/ad-sepra
+        path: sepdpc
+        
+    - name: Checkout Data Product Definitions
+      uses: actions/checkout@v3
+      with:
+        path: main
+      
     - name: Set up Python 3.11
       uses: actions/setup-python@v3
       with:
         python-version: "3.11"
+    
     - name: Install sepdpc
       run: |
         python -m pip install --upgrade pip
-        pip install git+https://ottensa:${{ secrets.GITHUB_TOKEN }}@github.com/ottensa/sepdpc.git
+        pip install $GITHUB_WORKSPACE/adsepra
+        pip install $GITHUB_WORKSPACE/sepdpc
+   
     - name: Validate Repo
       run: |
         sepdpc validate $GITHUB_WORKSPACE
+    
     - name: Publish Repo
       run: |
         sepdpc publish $GITHUB_WORKSPACE
