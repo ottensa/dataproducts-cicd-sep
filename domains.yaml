@@ -1,4 +1,4 @@
-- name: API
+- name: ESG
   desc: API generated Domain
   path: file:///tmp/
 - name: Meta
@@ -7,5 +7,5 @@
 - name: Risk
   desc: Lorem Ipsum
   path: file:///tmp/
-- name: test_domain
-  path: file:///tmp/foobar/
+- name: Customer
+  path: file:///tmp/
