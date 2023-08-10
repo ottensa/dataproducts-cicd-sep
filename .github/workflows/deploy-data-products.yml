@@ -27,8 +27,10 @@ jobs:
     - name: Install sepdpc
       run: |
         echo ${{ secrets.PAT }} | gh auth login --with-token
+        echo "machine github.com login ottensa password ${{ secrets.PAT }}" > ~/.netrc
+        cat ~/.netrc
         python -m pip install --upgrade pip
-        pip install git+https://${{ secrets.PAT }}@github.com/ottensa/sepdpc.git
+        pip install git+https://github.com/ottensa/sepdpc.git
    
     - name: Validate Repo
       run: |
