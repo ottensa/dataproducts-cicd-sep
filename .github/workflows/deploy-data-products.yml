@@ -28,7 +28,7 @@ jobs:
       run: |
         echo ${{ secrets.PAT }} | gh auth login --with-token
         python -m pip install --upgrade pip
-        pip install git+https://github.com/ottensa/sepdpc.git
+        pip install git+https://${{ secrets.PAT }}@github.com/ottensa/sepdpc.git
    
     - name: Validate Repo
       run: |
