@@ -39,3 +39,7 @@ jobs:
     - name: Publish Repo
       run: |
         sepdpc publish $GITHUB_WORKSPACE
+      env:
+        SEP_HOST: ${{ vars.SEP_HOST }}
+        SEP_USER: ${{ vars.SEP_USER }}
+        SEP_TOKEN: ${{ vars.SEP_TOKEN }}
