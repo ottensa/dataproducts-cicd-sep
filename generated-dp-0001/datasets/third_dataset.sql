@@ -1,1 +1,0 @@
-select * from tpch.tiny.lineitem
