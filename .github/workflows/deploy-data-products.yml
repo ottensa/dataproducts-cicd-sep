@@ -23,9 +23,8 @@ jobs:
         python-version: "3.11"
     - name: Install sepdpc
       run: |
-        echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
         python -m pip install --upgrade pip
-        pip install git+https://github.com/ottensa/sepdpc.git
+        pip install git+https://${{ secrets.GITHUB_TOKEN }}@github.com/ottensa/sepdpc.git
     - name: Validate Repo
       run: |
         sepdpc validate $GITHUB_WORKSPACE
