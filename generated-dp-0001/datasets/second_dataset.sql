@@ -1,1 +1,1 @@
-select * from tpch.tiny.customer
+select * from tpch.tiny.orders
