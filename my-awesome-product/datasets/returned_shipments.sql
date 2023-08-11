@@ -1,1 +1,0 @@
-SELECT * FROM tpch.tiny.orders
