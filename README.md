@@ -25,7 +25,7 @@ In addition, a Data Product also includes metadata. Some of these are mandatory 
 A data set is a SELECT statement associated with a name and optionally a summary.
 Further you can add descriptions to the individual columns.
 
-## Die Architektur bzw. die Idee
+## Architecture / Idea
 My idea to align the Data Products with CI/CD, taking into account both versioning and staging, 
 is to track these elements in text files in Git and roll them out via pipelines.
 In this example, I will use GitHub for versioning and GitHub Actions for rolling out.
