@@ -1,8 +1,7 @@
 catalog: objectstore
 domain: Meta
 name: My awesome Product
-summary: The intention of this data product is to give an example of a data product
-  and to show query federation.
+summary: Lorem Ipsum
 owner:
 - name: Arne Ottens
   email: arne.ottens@starburst.io
